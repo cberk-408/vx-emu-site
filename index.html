@@ -31,29 +31,37 @@
 </nav>
 
 <section class="hero">
-    <div class="hero-bg"></div>
+    <div class="hero-bg">
+        <div class="hero-particles" id="heroParticles"></div>
+    </div>
     <div class="hero-content">
-        <div class="badge">v3.2.1 — Güncel Sürüm</div>
-        <h1>Valorant Emülatör &<br><span class="gradient-text">Hileleri — 100% Bedava</span></h1>
-        <p class="hero-desc">En gelişmiş Valorant emülatörü ve hileleri. Undetect, stabil, güvenli. 50.000+ aktif kullanıcı. Ücretsiz indir, hemen oyna.</p>
-        <div class="hero-stats">
+        <div class="badge fade-in-up">v3.2.1 — Güncel Sürüm</div>
+        <h1 class="fade-in-up delay-1">Valorant Emülatör &<br><span class="gradient-text">Hileleri — 100% Bedava</span></h1>
+        <p class="hero-desc fade-in-up delay-2">En gelişmiş Valorant emülatörü ve hileleri. Undetect, stabil, güvenli. 50.000+ aktif kullanıcı.</p>
+        <div class="hero-stats fade-in-up delay-3">
             <div class="stat">
-                <span class="stat-num">50K+</span>
+                <span class="stat-num" data-target="50">0</span><span class="stat-suffix">K+</span>
                 <span class="stat-label">Aktif Kullanıcı</span>
             </div>
             <div class="stat">
-                <span class="stat-num">%99.9</span>
+                <span class="stat-num">99.9</span><span class="stat-suffix">%</span>
                 <span class="stat-label">Uptime</span>
             </div>
             <div class="stat">
-                <span class="stat-num">4.9/5</span>
+                <span class="stat-num">4.9</span><span class="stat-suffix">/5</span>
                 <span class="stat-label">Puan</span>
             </div>
         </div>
-        <div class="hero-buttons">
-            <a href="#download" class="btn btn-primary"><i class="fas fa-download"></i> Ücretsiz İndir</a>
+        <div class="hero-buttons fade-in-up delay-4">
+            <a href="#download" class="btn btn-primary pulse"><i class="fas fa-download"></i> Ücretsiz İndir</a>
             <a href="#emulator" class="btn btn-secondary"><i class="fas fa-gamepad"></i> Keşfet</a>
         </div>
+    </div>
+    <div class="scroll-indicator">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <span>Aşağı Kaydır</span>
     </div>
 </section>
 
@@ -65,32 +73,32 @@
             <p>Piyasadaki en iyi bedava emülatör ve hileler</p>
         </div>
         <div class="features-grid">
-            <div class="feature-card">
+            <div class="feature-card scroll-reveal">
                 <div class="feature-icon"><i class="fas fa-shield-halved"></i></div>
                 <h3>Undetect</h3>
                 <p>Gelişmiş anti-cheat bypass sistemi. Vanguard taramalarında tamamen görünmez.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card scroll-reveal">
                 <div class="feature-icon"><i class="fas fa-bolt"></i></div>
                 <h3>Yüksek Performans</h3>
                 <p>Optimize edilmiş kod yapısı. Minimum kaynak kullanımı, maksimum performans.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card scroll-reveal">
                 <div class="feature-icon"><i class="fas fa-arrows-rotate"></i></div>
                 <h3>Otomatik Güncelleme</h3>
                 <p>Oyun güncellemeleriyle senkronize otomatik güncelleme sistemi.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card scroll-reveal">
                 <div class="feature-icon"><i class="fas fa-gift"></i></div>
                 <h3>100% Bedava</h3>
                 <p>Emülatör ve tüm hileler tamamen ücretsiz. Gizli ücret yok.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card scroll-reveal">
                 <div class="feature-icon"><i class="fas fa-headset"></i></div>
                 <h3>7/24 Destek</h3>
                 <p>Discord üzerinden kesintisiz teknik destek.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card scroll-reveal">
                 <div class="feature-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
                 <h3>Kolay Kurulum</h3>
                 <p>Tek tıkla kurulum. 5 dakikada hazır. Teknik bilgi gerekmez.</p>
@@ -106,37 +114,20 @@
             <h2>Bedava <span class="gradient-text">Valorant Emülatörü</span></h2>
             <p>En gelişmiş emülatör, tamamen ücretsiz</p>
         </div>
-        <div class="categories-grid">
-            <div class="category-card featured">
+        <div class="categories-grid single">
+            <div class="category-card featured scroll-reveal">
                 <div class="category-header">
                     <i class="fas fa-desktop"></i>
                     <span class="category-tag">Emülatör</span>
                 </div>
                 <h3>VX Emulator</h3>
-                <p>Tam özellikli Valorant emülatörü. Tüm envanter, ajan ve harita verilerini simüle eder.</p>
+                <p>Tam özellikli Valorant emülatörü. Anti-cheat bypass, envanter simülasyonu ve daha fazlası.</p>
                 <ul class="category-features">
+                    <li><i class="fas fa-check"></i> <strong>Vanguard'ı Durdurur</strong></li>
+                    <li><i class="fas fa-check"></i> <strong>VAL-152 Banınızı Açar</strong></li>
                     <li><i class="fas fa-check"></i> Envanter Simülasyonu</li>
-                    <li><i class="fas fa-check"></i> Ajan Test</li>
-                    <li><i class="fas fa-check"></i> Harita Modu</li>
                     <li><i class="fas fa-check"></i> Anti-Detect Motor</li>
-                </ul>
-                <div class="category-price">
-                    <span class="price-new free">BEDAVA</span>
-                </div>
-                <a href="#download" class="btn btn-primary btn-block"><i class="fas fa-download"></i> İndir</a>
-            </div>
-            <div class="category-card">
-                <div class="category-header">
-                    <i class="fas fa-flask"></i>
-                    <span class="category-tag">Test</span>
-                </div>
-                <h3>VX Test Lab</h3>
-                <p>Emülatör üzerinde test yapın. Sensitivity, crosshair ve ayarları deneyin.</p>
-                <ul class="category-features">
-                    <li><i class="fas fa-check"></i> Sensitivity Calculator</li>
-                    <li><i class="fas fa-check"></i> Crosshair Builder</li>
-                    <li><i class="fas fa-check"></i> FPS Benchmark</li>
-                    <li><i class="fas fa-check"></i> Ayar Aktarma</li>
+                    <li><i class="fas fa-check"></i> Hızlı ve Stabil</li>
                 </ul>
                 <div class="category-price">
                     <span class="price-new free">BEDAVA</span>
@@ -152,57 +143,25 @@
         <div class="section-header">
             <span class="section-tag">Hileler</span>
             <h2>Bedava <span class="gradient-text">Valorant Hileleri</span></h2>
-            <p>İhtiyacına göre hile seç, bedava indir</p>
+            <p>Tüm hileler tek pakette, tamamen ücretsiz</p>
         </div>
-        <div class="categories-grid">
-            <div class="category-card">
-                <div class="category-header">
-                    <i class="fas fa-crosshairs"></i>
-                    <span class="category-tag">Popüler</span>
-                </div>
-                <h3>Aimbot</h3>
-                <p>Otomatik hedefleme ve nişan alma sistemi. Smooth aim, FOV ayarı, bone seçimi.</p>
-                <ul class="category-features">
-                    <li><i class="fas fa-check"></i> Smooth Aim</li>
-                    <li><i class="fas fa-check"></i> FOV Control</li>
-                    <li><i class="fas fa-check"></i> Bone Targeting</li>
-                    <li><i class="fas fa-check"></i> Visibility Check</li>
-                </ul>
-                <div class="category-price">
-                    <span class="price-new free">BEDAVA</span>
-                </div>
-                <a href="#download" class="btn btn-primary btn-block"><i class="fas fa-download"></i> İndir</a>
-            </div>
-            <div class="category-card featured">
-                <div class="category-header">
-                    <i class="fas fa-eye"></i>
-                    <span class="category-tag">En Popüler</span>
-                </div>
-                <h3>ESP / Wallhack</h3>
-                <p>Duvarların arkasını görün. Düşman konumları, can durumu, silah bilgisi.</p>
-                <ul class="category-features">
-                    <li><i class="fas fa-check"></i> Box ESP</li>
-                    <li><i class="fas fa-check"></i> Skeleton ESP</li>
-                    <li><i class="fas fa-check"></i> Health Bar</li>
-                    <li><i class="fas fa-check"></i> Weapon ESP</li>
-                </ul>
-                <div class="category-price">
-                    <span class="price-new free">BEDAVA</span>
-                </div>
-                <a href="#download" class="btn btn-primary btn-block"><i class="fas fa-download"></i> İndir</a>
-            </div>
-            <div class="category-card">
+        <div class="categories-grid single">
+            <div class="category-card featured scroll-reveal">
                 <div class="category-header">
                     <i class="fas fa-layer-group"></i>
                     <span class="category-tag">Tam Paket</span>
                 </div>
-                <h3>All-in-One</h3>
-                <p>Tüm hileler tek pakette. Aimbot + ESP + Triggerbot + Extra.</p>
+                <h3>All-in-One Hile Paketi</h3>
+                <p>Tüm hileler tek dosyada. Aimbot, ESP, triggerbot ve daha fazlası.</p>
                 <ul class="category-features">
-                    <li><i class="fas fa-check"></i> Tüm Aimbot Özellikleri</li>
-                    <li><i class="fas fa-check"></i> Tüm ESP Özellikleri</li>
-                    <li><i class="fas fa-check"></i> Triggerbot</li>
-                    <li><i class="fas fa-check"></i> Extra Modüller</li>
+                    <li><i class="fas fa-check"></i> <strong>Aimbot</strong> — Smooth Aim, FOV, Bone Targeting</li>
+                    <li><i class="fas fa-check"></i> <strong>ESP / Wallhack</strong> — Box, Skeleton, Health, Weapon</li>
+                    <li><i class="fas fa-check"></i> <strong>Triggerbot</strong> — Otomatik ateş</li>
+                    <li><i class="fas fa-check"></i> <strong>Unlock All</strong> — Tüm skin ve ajanları aç</li>
+                    <li><i class="fas fa-check"></i> <strong>Radar Hack</strong> — Mini haritada düşmanları göster</li>
+                    <li><i class="fas fa-check"></i> <strong>No Recoil</strong> — Sekme yok</li>
+                    <li><i class="fas fa-check"></i> <strong>Silent Aim</strong> — Görünmeyen nişan alma</li>
+                    <li><i class="fas fa-check"></i> <strong>Bunny Hop</strong> — Otomatik zıplama</li>
                 </ul>
                 <div class="category-price">
                     <span class="price-new free">BEDAVA</span>
@@ -221,7 +180,7 @@
             <p>Gerçek kullanıcı deneyimleri</p>
         </div>
         <div class="reviews-grid">
-            <div class="review-card">
+            <div class="review-card scroll-reveal">
                 <div class="review-header">
                     <div class="reviewer-avatar">K</div>
                     <div class="reviewer-info">
@@ -235,7 +194,7 @@
                 <p class="review-text">6 aydır kullanıyorum, hiç ban yemedim. Emülatör ve hileler çok stabil. Vanguard güncellemelerinde bile sorunsuz çalışıyor.</p>
                 <div class="review-verified"><i class="fas fa-circle-check"></i> Doğrulanmış İndirme</div>
             </div>
-            <div class="review-card">
+            <div class="review-card scroll-reveal">
                 <div class="review-header">
                     <div class="reviewer-avatar">A</div>
                     <div class="reviewer-info">
@@ -249,7 +208,7 @@
                 <p class="review-text">Kurulumu çok basit, 5 dakikada hazır oldu. Ücretsiz olmasına rağmen kaliteli iş çıkarmışlar. Performans kaybı sıfır.</p>
                 <div class="review-verified"><i class="fas fa-circle-check"></i> Doğrulanmış İndirme</div>
             </div>
-            <div class="review-card">
+            <div class="review-card scroll-reveal">
                 <div class="review-header">
                     <div class="reviewer-avatar">M</div>
                     <div class="reviewer-info">
@@ -260,10 +219,10 @@
                 <div class="review-stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-stroke"></i>
                 </div>
-                <p class="review-text">Emülatörü ve All-in-One hileyi indirdim, her şey çalışıyor. Triggerbot biraz daha geliştirilebilir ama genel olarak mükemmel.</p>
+                <p class="review-text">Unlock All ve Aimbot harika çalışıyor. VAL-152 banım açıldı. Herkese tavsiye ederim.</p>
                 <div class="review-verified"><i class="fas fa-circle-check"></i> Doğrulanmış İndirme</div>
             </div>
-            <div class="review-card">
+            <div class="review-card scroll-reveal">
                 <div class="review-header">
                     <div class="reviewer-avatar">E</div>
                     <div class="reviewer-info">
@@ -277,7 +236,7 @@
                 <p class="review-text">Diğer hileleri denedim hep ban yedim. Bundan beri ban yemedim. Bedava dağıtıyorlar vallahi helal olsun.</p>
                 <div class="review-verified"><i class="fas fa-circle-check"></i> Doğrulanmış İndirme</div>
             </div>
-            <div class="review-card">
+            <div class="review-card scroll-reveal">
                 <div class="review-header">
                     <div class="reviewer-avatar">R</div>
                     <div class="reviewer-info">
@@ -288,10 +247,10 @@
                 <div class="review-stars">
                     <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
                 </div>
-                <p class="review-text">Discord destek grubu çok aktif. Gece 3'te bile sorunumu çözdüler. ESP kalitesi inanılmaz, 4K monitörde bile net.</p>
+                <p class="review-text">ESP kalitesi inanılmaz. Vanguard'ı durduruyor, ban riski yok. Discord destek ekibi çok ilgili.</p>
                 <div class="review-verified"><i class="fas fa-circle-check"></i> Doğrulanmış İndirme</div>
             </div>
-            <div class="review-card">
+            <div class="review-card scroll-reveal">
                 <div class="review-header">
                     <div class="reviewer-avatar">B</div>
                     <div class="reviewer-info">
@@ -306,7 +265,7 @@
                 <div class="review-verified"><i class="fas fa-circle-check"></i> Doğrulanmış İndirme</div>
             </div>
         </div>
-        <div class="reviews-summary">
+        <div class="reviews-summary scroll-reveal">
             <div class="summary-score">
                 <span class="score-num">4.9</span>
                 <div class="score-stars">
@@ -325,7 +284,7 @@
             <h2>Sıkça Sorulan <span class="gradient-text">Sorular</span></h2>
         </div>
         <div class="faq-list">
-            <div class="faq-item">
+            <div class="faq-item scroll-reveal">
                 <button class="faq-question">
                     <span>Virüs uyarısı alıyorum, ne yapmalıyım?</span>
                     <i class="fas fa-chevron-down"></i>
@@ -341,7 +300,7 @@
                     <p>Tüm dosyalarımız virustotal.com üzerinden taratılmış ve %100 temiz onayı almıştır.</p>
                 </div>
             </div>
-            <div class="faq-item">
+            <div class="faq-item scroll-reveal">
                 <button class="faq-question">
                     <span>Antivirüs neden uyarı veriyor?</span>
                     <i class="fas fa-chevron-down"></i>
@@ -356,16 +315,25 @@
                     <p>Bu uyarıların hiçbiri gerçek bir tehdit değildir. Dosya güvenlidir.</p>
                 </div>
             </div>
-            <div class="faq-item">
+            <div class="faq-item scroll-reveal">
                 <button class="faq-question">
-                    <span>Ban riski var mı?</span>
+                    <span>Vanguard'ı durduruyor mu?</span>
                     <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="faq-answer">
-                    <p>Emülatör ve hilelerimiz gelişmiş anti-detect teknolojisi ile çalışmaktadır. Vanguard anti-cheat bypass sistemi sürekli olarak güncellenmektedir. 6 aylık verilerimize göre ban oranı <strong>%0.02</strong>'nin altındadır. Yine de herhangi bir riski tamamen ortadan kaldırmak mümkün değildir.</p>
+                    <p>Evet, emülatörümüz <strong>Vanguard anti-cheat'i tamamen devre dışı bırakır</strong>. Sisteminizdeki Vanguard servisini durdurur ve hilelerinizi güvenle kullanmanızı sağlar.</p>
                 </div>
             </div>
-            <div class="faq-item">
+            <div class="faq-item scroll-reveal">
+                <button class="faq-question">
+                    <span>VAL-152 banımı açar mı?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Evet, emülatörümüz <strong>VAL-152 hata kodunu置き换えて banınızı açar</strong>. VAL-152 genellikle hile kullandığı tespit edilen hesaplara verilir. Emülatörümüz bu engeli aşarak hesabınızı tekrar oynanabilir hale getirir.</p>
+                </div>
+            </div>
+            <div class="faq-item scroll-reveal">
                 <button class="faq-question">
                     <span>Nasıl kurulum yapılır?</span>
                     <i class="fas fa-chevron-down"></i>
@@ -381,7 +349,7 @@
                     <p>Tüm süreç 5 dakikadan kısa sürer. Teknik bilgi gerekmez.</p>
                 </div>
             </div>
-            <div class="faq-item">
+            <div class="faq-item scroll-reveal">
                 <button class="faq-question">
                     <span>Her şey gerçekten bedava mı?</span>
                     <i class="fas fa-chevron-down"></i>
@@ -390,28 +358,19 @@
                     <p>Evet, emülatör ve tüm hilelerimiz <strong>tamamen ücretsizdir</strong>. Gizli ücret, abonelik veya lisans anahtarı yoktur. İndirin ve kullanın.</p>
                 </div>
             </div>
-            <div class="faq-item">
-                <button class="faq-question">
-                    <span>Güncellemeler ne sıklıkla yapılıyor?</span>
-                    <i class="fas fa-chevron-down"></i>
-                </button>
-                <div class="faq-answer">
-                    <p>Valorant her güncelleme yaptığında emülatör ve hilelerimiz de güncellenmektedir. Genellikle güncelleme 24 saat içinde yayınlanır. Discord sunucumuzdan bildirim alabilirsiniz.</p>
-                </div>
-            </div>
         </div>
     </div>
 </section>
 
 <section class="download" id="download">
     <div class="container">
-        <div class="download-card">
+        <div class="download-card scroll-reveal">
             <div class="download-glow"></div>
             <h2>Bedava İndir</h2>
             <p>Emülatör ve tüm hileler tamamen ücretsiz. Hemen indir, hemen oyna.</p>
             <div class="download-buttons">
-                <a href="#" class="btn btn-primary btn-large"><i class="fab fa-windows"></i> Windows İndir</a>
-                <a href="#" class="btn btn-discord btn-large"><i class="fab fa-discord"></i> Discord</a>
+                <a href="#" class="btn btn-primary btn-large pulse"><i class="fab fa-windows"></i> Windows İndir</a>
+                <a href="#discord" class="btn btn-discord btn-large"><i class="fab fa-discord"></i> Discord</a>
             </div>
             <div class="download-info">
                 <span><i class="fas fa-shield-halved"></i> Virüssüz</span>
@@ -426,14 +385,14 @@
 
 <section class="discord-section" id="discord">
     <div class="container">
-        <div class="discord-card">
+        <div class="discord-card scroll-reveal">
             <div class="discord-icon"><i class="fab fa-discord"></i></div>
             <h2>Discord'a Katıl</h2>
-            <p>Destek, güncelleme ve topluluk için Discord sunucumuza katıl.</p>
-            <p class="discord-instruction">
+            <p>Destek, güncelleme ve topluluk için Discord'da bize ulaş.</p>
+            <div class="discord-instruction">
                 <i class="fas fa-user-plus"></i>
-                <strong>cberkacikbrother</strong> kullanıcısına istek atın
-            </p>
+                <span><strong>cberkacikbrother</strong> kullanıcısına istek atın</span>
+            </div>
             <a href="https://discord.com/users/cberkacikbrother" target="_blank" class="btn btn-discord btn-large">
                 <i class="fab fa-discord"></i> Discord'da İstek At
             </a>
