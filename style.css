@@ -43,6 +43,11 @@ body {
     height: 72px; display: flex; align-items: center; justify-content: space-between;
 }
 .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--text-primary); }
+.logo-img {
+    width: 44px; height: 44px; transition: transform 0.3s var(--transition);
+    filter: drop-shadow(0 2px 8px var(--accent-glow));
+}
+.logo:hover .logo-img { transform: rotate(-10deg) scale(1.05); }
 .logo-icon {
     width: 42px; height: 42px; background: linear-gradient(135deg, var(--accent), #a855f7);
     border-radius: 12px; display: flex; align-items: center; justify-content: center;
@@ -380,6 +385,26 @@ section { padding: 100px 0; }
 .download-buttons { display: flex; justify-content: center; gap: 16px; margin-bottom: 28px; position: relative; flex-wrap: wrap; }
 .download-info { display: flex; justify-content: center; gap: 28px; flex-wrap: wrap; position: relative; }
 .download-info span { color: var(--text-muted); font-size: 13px; display: flex; align-items: center; gap: 6px; }
+.download-alt {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    margin-bottom: 28px; position: relative;
+}
+.download-alt span { color: var(--text-muted); font-size: 14px; }
+.download-alt-link {
+    color: var(--accent-light); text-decoration: none; font-size: 14px; font-weight: 500;
+    transition: color 0.2s; border-bottom: 1px solid transparent;
+}
+.download-alt-link:hover { color: var(--text-primary); border-bottom-color: var(--accent-light); }
+.hero-logo { margin-bottom: 24px; }
+.hero-logo-img {
+    width: 120px; height: 120px;
+    filter: drop-shadow(0 0 40px var(--accent-glow));
+    animation: logoFloat 4s ease-in-out infinite;
+}
+@keyframes logoFloat {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-12px) scale(1.02); }
+}
 
 /* ===== DISCORD ===== */
 .discord-section { padding: 100px 0; }
